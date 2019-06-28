@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreationPerso</class>
+ <widget class="QDialog" name="CreationPerso">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>423</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CreationPerso</string>
+  </property>
+  <widget class="QLabel" name="labelBienvenue">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>141</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Bienvenue Combattant</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>401</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="labelChoixClasse">
+        <property name="text">
+         <string>Choix de la classe :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxClasse">
+        <item>
+         <property name="text">
+          <string>Bretteur</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Paladin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Berserk</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Assassin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Guerrier</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Samourai</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="labelNom">
+        <property name="text">
+         <string>Nom :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditNom">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="labelPrenom">
+        <property name="text">
+         <string>Prenom :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditPrenom">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="labelAge">
+        <property name="text">
+         <string>Age :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spinBoxAge">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="minimum">
+         <number>16</number>
+        </property>
+        <property name="value">
+         <number>16</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="labelTaille">
+        <property name="text">
+         <string>Taille :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="doubleSpinBoxTaille">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="minimum">
+         <double>0.400000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>2.200000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>0.010000000000000</double>
+        </property>
+        <property name="value">
+         <double>0.400000000000000</double>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="5" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="labelPoids">
+        <property name="text">
+         <string>Poids :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spinBoxPoids">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="minimum">
+         <number>45</number>
+        </property>
+        <property name="maximum">
+         <number>200</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="6" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="labelArmeDeuxMains">
+        <property name="text">
+         <string>Arme à deux mains :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxArmeDeuxMains">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <item>
+         <property name="text">
+          <string>Non</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Oui</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="7" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <widget class="QLabel" name="labelChoixArmeUneMain">
+        <property name="text">
+         <string>Choix de l'arme une main droite</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxChoixArmeUneMainDroite">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="10" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_9">
+      <item>
+       <widget class="QPushButton" name="pushButtonQuitter">
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonEnter">
+        <property name="text">
+         <string>Enter</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="9" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <item>
+       <widget class="QLabel" name="labelChoixArmeDeuxMains">
+        <property name="text">
+         <string>Choix de l'arme à deux mains</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxChoixArmeDeuxMains"/>
+      </item>
+     </layout>
+    </item>
+    <item row="8" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <item>
+       <widget class="QLabel" name="labelChoixArmeMainGauche">
+        <property name="text">
+         <string>Choix de l'arme une main gauche</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxChoixArmeMainGauche"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButtonQuitter</sender>
+   <signal>clicked()</signal>
+   <receiver>CreationPerso</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>332</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>26</x>
+     <y>313</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

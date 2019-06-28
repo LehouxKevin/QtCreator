@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pochettes/pochette4.jpg</file>
+        <file>pochettes/pochette3.jpg</file>
+        <file>pochettes/pochette2.jpg</file>
+        <file>pochettes/pochette1.jpeg</file>
+        <file>images/voice.png</file>
+        <file>images/up.png</file>
+        <file>images/save.png</file>
+        <file>images/rhythm.png</file>
+        <file>images/repeter.png</file>
+        <file>images/playlist.png</file>
+        <file>images/pause.png</file>
+        <file>images/opened-folder.png</file>
+        <file>images/musical.png</file>
+        <file>images/microphone.png</file>
+        <file>images/long-arrow-up.png</file>
+        <file>images/long-arrow-down.png</file>
+        <file>images/jouer.png</file>
+        <file>images/edit-property.png</file>
+        <file>images/dossier-musique-plus.png</file>
+        <file>images/dossier-musique.png</file>
+        <file>images/delete.png</file>
+        <file>images/circled-right.png</file>
+        <file>images/below.png</file>
+        <file>images/ressources.qrc</file>
+        <file>images/playlist2.png</file>
+        <file>images/paper.png</file>
+        <file>images/hard-to-find.png</file>
+        <file>images/slide-up.png</file>
+        <file>images/slide-down.png</file>
+        <file>images/defill.png</file>
+        <file>images/task.png</file>
+        <file>images/metronome.png</file>
+        <file>images/adjust.png</file>
+        <file>images/metronome2.png</file>
+        <file>images/metronome3.png</file>
+        <file>images/plus.png</file>
+        <file>images/minus.png</file>
+        <file>images/send-file.png</file>
+        <file>images/open-path.png</file>
+    </qresource>
+</RCC>

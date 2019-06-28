@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>TextureTerre.jpg</file>
+        <file>Perso.png</file>
+    </qresource>
+    <qresource prefix="/sons">
+        <file>link-start-reupload.mp3</file>
+        <file>Level Gain.mp3</file>
+        <file>End Game.wav</file>
+        <file>Death sound.mp3</file>
+        <file>Bonus Sound.mp3</file>
+        <file>musiqueFond.mp3</file>
+        <file>Fight Sound.mp3</file>
+        <file>musiqueCreationPerso.mp3</file>
+        <file>tresorTrouver.mp3</file>
+        <file>Malus.wav</file>
+        <file>Exit.wav</file>
+        <file>musique_creation_perso.mp3</file>
+    </qresource>
+</RCC>

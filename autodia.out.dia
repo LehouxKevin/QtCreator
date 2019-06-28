@@ -1,0 +1,4512 @@
+<?xml version="1.0"?>
+<dia:diagram xmlns:dia="http://www.lysator.liu.se/~alla/dia/">
+  <dia:diagramdata>
+    <dia:attribute name="background">
+      <dia:color val="#ffffff"/>
+    </dia:attribute>
+    <dia:attribute name="paper">
+      <dia:composite type="paper">
+        <dia:attribute name="name">
+          <dia:string>#A4#</dia:string>
+        </dia:attribute>
+        <dia:attribute name="tmargin">
+          <dia:real val="2.82"/>
+        </dia:attribute>
+        <dia:attribute name="bmargin">
+          <dia:real val="2.82"/>
+        </dia:attribute>
+        <dia:attribute name="lmargin">
+          <dia:real val="2.82"/>
+        </dia:attribute>
+        <dia:attribute name="rmargin">
+          <dia:real val="2.82"/>
+        </dia:attribute>
+        <dia:attribute name="is_portrait">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="scaling">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="fitto">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:composite>
+    </dia:attribute>
+    <dia:attribute name="grid">
+      <dia:composite type="grid">
+        <dia:attribute name="width_x">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="width_y">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="visible_x">
+          <dia:int val="1"/>
+        </dia:attribute>
+        <dia:attribute name="visible_y">
+          <dia:int val="1"/>
+        </dia:attribute>
+      </dia:composite>
+    </dia:attribute>
+    <dia:attribute name="guides">
+      <dia:composite type="guides">
+        <dia:attribute name="hguides"/>
+        <dia:attribute name="vguides"/>
+      </dia:composite>
+    </dia:attribute>
+  </dia:diagramdata>
+  <dia:layer name="Background" visible="true">
+    <dia:object type="UML - Class" version="0" id="O7">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-9.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-9.000,1.900;0.000,6.300"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-9.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="4.400"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#LecteurAudio#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#ui#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Ui::LecteurAudio *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#LecteurAudio#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#parent#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QWidget*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~LecteurAudio#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O13">
+      <dia:attribute name="obj_pos">
+        <dia:point val="18.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="18.000,1.900;27.000,6.300"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="18.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="4.400"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Niveau#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#ui#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Ui::Niveau *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Niveau#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#parent#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QWidget*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~Niveau#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O15">
+      <dia:attribute name="obj_pos">
+        <dia:point val="9.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="9.000,1.900;18.000,22.300"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="9.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="20.400"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Parametres#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#ui#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Ui::Parametres *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#cheminAudio#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#cheminPartition#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#cheminEnregistrement#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#cheminRythme#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Parametres#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#parent#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QWidget*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~Parametres#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#LireFichierIni#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#EcrireFichierIni#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#actualiserAffichageChemins#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#obtenirCheminAudio#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QString #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#obtenirCheminPartition#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QString #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#obtenirCheminEnregistrement#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QString #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#obtenirCheminRythme#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QString #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonAppliquerModifications_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonResetAudio_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonReset_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonResetEnregistrement_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonRythme_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonCheminAudio_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonCheminPartition_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonCheminEnregistrement_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonCheminRythme_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O9">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-18.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-18.000,1.900;-9.000,22.300"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-18.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="20.400"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#LecteurPartitions#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#ui#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Ui::LecteurPartitions *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#document#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Poppler::Document*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#document2#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Poppler::Document*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#nbPages#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#numeroPage#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#images#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#&lt;QImage&gt; #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#listeImagesMiniature#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#&lt;QImage&gt; #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#layoutPage1#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QVBoxLayout *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#layoutPage2#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QVBoxLayout *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#layoutImageMiniature#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QVBoxLayout *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#widgetPage1#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QWidget *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#widgetPage2#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QWidget *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#LecteurPartitions#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#parent#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QWidget*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~LecteurPartitions#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#ChargerPartition#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#_cheminPartition#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#ChargerPartitionDepuisGestionnaire#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#_cheminPartition#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#actualiserPlaylist#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#t#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QLis#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#t#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QLis#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#resizeEvent#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#event#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QResizeEvent*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonCharger_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#onQPushButtonImageMiniature_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonPagePrec_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonPageSuiv_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonZoomPlus_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O1">
+      <dia:attribute name="obj_pos">
+        <dia:point val="27.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="27.000,1.900;36.000,23.900"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="27.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="22.000"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#AssistantMusicien#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#ui#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Ui::AssistantMusicien *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#applicationToolBar#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QToolBar *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#mdiAera#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QMdiArea *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#pAudio#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QMdiSubWindow *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#pPartitions#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QMdiSubWindow *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#pListes#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QMdiSubWindow *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#pMetronome#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QMdiSubWindow *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#pNiveau#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QMdiSubWindow *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#pParametres#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QMdiSubWindow *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#tailleFenetre#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QSize #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#audio#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#LecteurAudio *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#partitions#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#LecteurPartitions *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#listes#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#GestionnaireListes *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#metronome#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Metronome *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#niveau#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Niveau *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#parametres#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Parametres *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#accesBdd#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#AccesBdd *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#AssistantMusicien#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#parent#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QWidget*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~AssistantMusicien#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#AfficherAudio#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#AfficherPartition#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#AfficherListe#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#AfficherMetronome#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#AfficherNiveau#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#AfficherParametres#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O4">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-27.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-27.000,1.900;-18.000,46.300"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-27.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="44.400"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#GestionnaireListes#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#ui#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Ui::GestionnaireListes *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#lecteurAudio#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#LecteurAudio *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#player#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QMediaPlayer *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#playlist#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QMediaPlaylist *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#lesPartitions#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QStringList #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#leTitre#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Titre *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#titreAmodifier#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Titre *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#itemSelectionner#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#leConcert#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#&lt;QString&gt; #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#listeTitre#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#&lt;QString&gt; #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#lecteurPartitions#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#LecteurPartitions *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#accesBdd#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#AccesBdd *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#parametres#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Parametres *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#cheminRepertoireAudio#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#cheminRepertoirePartition#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#cheminRepertoireEnregistrement#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#cheminRepertoireRythme#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#GestionnaireListes#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#_lecteurPartition#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#LecteurPartitions*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#_lecteurAudio#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#LecteurAudio*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#parent#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QWidget*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~GestionnaireListes#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#afficherListeMusique#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#afficherListeSet#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#afficherListeSetStockesBdd#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#t#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QLis#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#ExtraireNomFichier#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QString #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#_chemin#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#DecomposerNomFichier#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QString #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#_chemin#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#DecomposerInterpreteFichier#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QString #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#_texte#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#actualiserCheminsRepertoires#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#resizeEvent#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#event#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QResizeEvent*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonNouveauConcert_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonNote_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonAjouter_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonAjoutFichiers_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonEnvoyerMusique_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_listWidgetListeMusique_itemClicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#item#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QListWidgetItem*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_listWidgetListeMusique_itemDoubleClicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#item#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QListWidgetItem*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_listWidgetAffichageSet_itemDoubleClicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#item#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QListWidgetItem*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonObtenirCheminFichierAudio_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonObtenirCheminFichierPartition_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonAnnuler_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_lineEditRechercheParTitre_textChanged#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#arg1#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_lineEditRechercheParInterprete_textChanged#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#arg1#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonObtenirCheminEnregistrement_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonObtenirCheminFichierRythme_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonModifierTitre_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonValiderLesModifications_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonPartition_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonLirePlaylist_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonAudio_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonEnvoyerPlaylist_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonSauvegarderConcert_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_comboBoxListeSet_currentIndexChanged#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#arg1#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonSupprimerSet_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_listWidgetAffichageSet_itemClicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#item#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QListWidgetItem*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#on_pushButtonEnvoyerPlaylistPartition_clicked#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O11">
+      <dia:attribute name="obj_pos">
+        <dia:point val="1.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="1.000,1.900;10.000,6.300"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="1.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="4.400"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Metronome#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#ui#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Ui::Metronome *#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Metronome#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#parent#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QWidget*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~Metronome#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O17">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-36.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-36.000,1.900;-34.000,3.900"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-36.000,1.900"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="2.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="2.000"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Titre#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name = "attributes"/>
+                  <dia:attribute name="operations"/>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O0">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-21.600,-18.500"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-21.600,-18.500;-12.600,1.100"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-21.600,-18.500"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="19.600"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#AccesBdd#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#bdd#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QSqlDatabase #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#database#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#hostname#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#dataBaseName#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#username#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#password#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#QString #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#AccesBdd#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#connexionBDD#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#LireFichierIni#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#EcrireFichierIni#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#obtenirListeTitre#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QList &lt;QString&gt; #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#enregistrerTitre#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#titre#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Titre*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#enregistrerModificationTitre#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#titre#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Titre*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#obtenirListeTitreFiltreParTitre#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QList &lt;QString&gt; #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#texte#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#obtenirListeTitreFiltreParInterprete#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QList &lt;QString&gt; #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#texte#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#obtenirTitreAModifier#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#Titre*#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#nomTitre#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#obtenirListeSetsDansBdd#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QList &lt;QString&gt; #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#obtenirListeTitreDansSetSelectionner#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#QList &lt;QString&gt; #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#nomSet#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#date#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#genre#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#creerSetMusical#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#int #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#nomSet#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#genre#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#jours#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#mois#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#annee#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#enregistrerSetMusical#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#t#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QLis#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#idSet#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#supprimerSet#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#nomSet#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#date#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#genre#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#enregistrerPreset#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#cheminPresetMetronome#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#QString#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#idTitre#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+ <dia:object type="UML - Class" version="0" id="O18">
+   <dia:attribute name="obj_pos">
+     <dia:point val="7.200,-18.500"/>
+   </dia:attribute>
+   <dia:attribute name="obj_bb">
+     <dia:rectangle val="7.200,-18.500;8.200,-17.500"/>
+   </dia:attribute>
+   <dia:attribute name="elem_corner">
+     <dia:point val="7.200,-18.500"/>
+   </dia:attribute>
+   <dia:attribute name="elem_width">
+     <dia:real val="1.000"/>
+   </dia:attribute>
+   <dia:attribute name="elem_height">
+     <dia:real val="1.000"/>
+   </dia:attribute>
+   <dia:attribute name="name">
+     <dia:string>#QObject#</dia:string>
+   </dia:attribute>
+   <dia:attribute name="stereotype">
+     <dia:string/>
+   </dia:attribute>
+   <dia:attribute name="abstract">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="suppress_attributes">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="suppress_operations">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="visible_attributes">
+     <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="visible_operations">
+     <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="attributes"/>
+   <dia:attribute name="operations"/>
+   <dia:attribute name="template">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="templates"/>
+ </dia:object>
+ <dia:object type="UML - Class" version="0" id="O5">
+   <dia:attribute name="obj_pos">
+     <dia:point val="-7.200,-18.500"/>
+   </dia:attribute>
+   <dia:attribute name="obj_bb">
+     <dia:rectangle val="-7.200,-18.500;-6.200,-17.500"/>
+   </dia:attribute>
+   <dia:attribute name="elem_corner">
+     <dia:point val="-7.200,-18.500"/>
+   </dia:attribute>
+   <dia:attribute name="elem_width">
+     <dia:real val="1.000"/>
+   </dia:attribute>
+   <dia:attribute name="elem_height">
+     <dia:real val="1.000"/>
+   </dia:attribute>
+   <dia:attribute name="name">
+     <dia:string>#QWidget#</dia:string>
+   </dia:attribute>
+   <dia:attribute name="stereotype">
+     <dia:string/>
+   </dia:attribute>
+   <dia:attribute name="abstract">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="suppress_attributes">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="suppress_operations">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="visible_attributes">
+     <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="visible_operations">
+     <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="attributes"/>
+   <dia:attribute name="operations"/>
+   <dia:attribute name="template">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="templates"/>
+ </dia:object>
+ <dia:object type="UML - Class" version="0" id="O2">
+   <dia:attribute name="obj_pos">
+     <dia:point val="21.600,-18.500"/>
+   </dia:attribute>
+   <dia:attribute name="obj_bb">
+     <dia:rectangle val="21.600,-18.500;22.600,-17.500"/>
+   </dia:attribute>
+   <dia:attribute name="elem_corner">
+     <dia:point val="21.600,-18.500"/>
+   </dia:attribute>
+   <dia:attribute name="elem_width">
+     <dia:real val="1.000"/>
+   </dia:attribute>
+   <dia:attribute name="elem_height">
+     <dia:real val="1.000"/>
+   </dia:attribute>
+   <dia:attribute name="name">
+     <dia:string>#QMainWindow#</dia:string>
+   </dia:attribute>
+   <dia:attribute name="stereotype">
+     <dia:string/>
+   </dia:attribute>
+   <dia:attribute name="abstract">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="suppress_attributes">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="suppress_operations">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="visible_attributes">
+     <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="visible_operations">
+     <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="attributes"/>
+   <dia:attribute name="operations"/>
+   <dia:attribute name="template">
+     <dia:boolean val="false"/>
+   </dia:attribute>
+   <dia:attribute name="templates"/>
+ </dia:object>
+  <dia:object type="UML - Generalization" version="0" id="O14">
+   <dia:attribute name="obj_pos">
+     <dia:point val="19.5,-1.1"/>
+   </dia:attribute>
+   <dia:attribute name="obj_bb">
+     <dia:rectangle val="19.5,-1.1;24.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_points">
+     <dia:point val="19.5,-1.1"/>
+     <dia:point val="19.5,0.4"/>
+     <dia:point val="24.5,0.4"/>
+     <dia:point val="24.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_orient">
+     <dia:enum val="1"/>
+     <dia:enum val="0"/>
+     <dia:enum val="1"/>
+   </dia:attribute>
+   <dia:attribute name="autorouting">
+      <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="name">
+     <dia:string/>
+   </dia:attribute>
+   <dia:attribute name="stereotype">
+      <dia:string/>
+   </dia:attribute>
+   <dia:connections>
+     <dia:connection handle="0" to="O5" connection="6"/>
+     <dia:connection handle="1" to="O13" connection="1"/>
+    </dia:connections>
+ </dia:object>
+  <dia:object type="UML - Generalization" version="0" id="O16">
+   <dia:attribute name="obj_pos">
+     <dia:point val="10.5,-1.1"/>
+   </dia:attribute>
+   <dia:attribute name="obj_bb">
+     <dia:rectangle val="10.5,-1.1;15.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_points">
+     <dia:point val="10.5,-1.1"/>
+     <dia:point val="10.5,0.4"/>
+     <dia:point val="15.5,0.4"/>
+     <dia:point val="15.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_orient">
+     <dia:enum val="1"/>
+     <dia:enum val="0"/>
+     <dia:enum val="1"/>
+   </dia:attribute>
+   <dia:attribute name="autorouting">
+      <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="name">
+     <dia:string/>
+   </dia:attribute>
+   <dia:attribute name="stereotype">
+      <dia:string/>
+   </dia:attribute>
+   <dia:connections>
+     <dia:connection handle="0" to="O5" connection="6"/>
+     <dia:connection handle="1" to="O15" connection="1"/>
+    </dia:connections>
+ </dia:object>
+  <dia:object type="UML - Generalization" version="0" id="O10">
+   <dia:attribute name="obj_pos">
+     <dia:point val="-16.5,-1.1"/>
+   </dia:attribute>
+   <dia:attribute name="obj_bb">
+     <dia:rectangle val="-16.5,-1.1;-11.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_points">
+     <dia:point val="-16.5,-1.1"/>
+     <dia:point val="-16.5,0.4"/>
+     <dia:point val="-11.5,0.4"/>
+     <dia:point val="-11.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_orient">
+     <dia:enum val="1"/>
+     <dia:enum val="0"/>
+     <dia:enum val="1"/>
+   </dia:attribute>
+   <dia:attribute name="autorouting">
+      <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="name">
+     <dia:string/>
+   </dia:attribute>
+   <dia:attribute name="stereotype">
+      <dia:string/>
+   </dia:attribute>
+   <dia:connections>
+     <dia:connection handle="0" to="O5" connection="6"/>
+     <dia:connection handle="1" to="O9" connection="1"/>
+    </dia:connections>
+ </dia:object>
+  <dia:object type="UML - Generalization" version="0" id="O8">
+   <dia:attribute name="obj_pos">
+     <dia:point val="-7.5,-1.1"/>
+   </dia:attribute>
+   <dia:attribute name="obj_bb">
+     <dia:rectangle val="-7.5,-1.1;-2.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_points">
+     <dia:point val="-7.5,-1.1"/>
+     <dia:point val="-7.5,0.4"/>
+     <dia:point val="-2.5,0.4"/>
+     <dia:point val="-2.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_orient">
+     <dia:enum val="1"/>
+     <dia:enum val="0"/>
+     <dia:enum val="1"/>
+   </dia:attribute>
+   <dia:attribute name="autorouting">
+      <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="name">
+     <dia:string/>
+   </dia:attribute>
+   <dia:attribute name="stereotype">
+      <dia:string/>
+   </dia:attribute>
+   <dia:connections>
+     <dia:connection handle="0" to="O5" connection="6"/>
+     <dia:connection handle="1" to="O7" connection="1"/>
+    </dia:connections>
+ </dia:object>
+  <dia:object type="UML - Generalization" version="0" id="O12">
+   <dia:attribute name="obj_pos">
+     <dia:point val="2.5,-1.1"/>
+   </dia:attribute>
+   <dia:attribute name="obj_bb">
+     <dia:rectangle val="2.5,-1.1;7.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_points">
+     <dia:point val="2.5,-1.1"/>
+     <dia:point val="2.5,0.4"/>
+     <dia:point val="7.5,0.4"/>
+     <dia:point val="7.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_orient">
+     <dia:enum val="1"/>
+     <dia:enum val="0"/>
+     <dia:enum val="1"/>
+   </dia:attribute>
+   <dia:attribute name="autorouting">
+      <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="name">
+     <dia:string/>
+   </dia:attribute>
+   <dia:attribute name="stereotype">
+      <dia:string/>
+   </dia:attribute>
+   <dia:connections>
+     <dia:connection handle="0" to="O5" connection="6"/>
+     <dia:connection handle="1" to="O11" connection="1"/>
+    </dia:connections>
+ </dia:object>
+  <dia:object type="UML - Generalization" version="0" id="O6">
+   <dia:attribute name="obj_pos">
+     <dia:point val="-25.5,-1.1"/>
+   </dia:attribute>
+   <dia:attribute name="obj_bb">
+     <dia:rectangle val="-25.5,-1.1;-20.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_points">
+     <dia:point val="-25.5,-1.1"/>
+     <dia:point val="-25.5,0.4"/>
+     <dia:point val="-20.5,0.4"/>
+     <dia:point val="-20.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_orient">
+     <dia:enum val="1"/>
+     <dia:enum val="0"/>
+     <dia:enum val="1"/>
+   </dia:attribute>
+   <dia:attribute name="autorouting">
+      <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="name">
+     <dia:string/>
+   </dia:attribute>
+   <dia:attribute name="stereotype">
+      <dia:string/>
+   </dia:attribute>
+   <dia:connections>
+     <dia:connection handle="0" to="O5" connection="6"/>
+     <dia:connection handle="1" to="O4" connection="1"/>
+    </dia:connections>
+ </dia:object>
+  <dia:object type="UML - Generalization" version="0" id="O3">
+   <dia:attribute name="obj_pos">
+     <dia:point val="28.5,-1.1"/>
+   </dia:attribute>
+   <dia:attribute name="obj_bb">
+     <dia:rectangle val="28.5,-1.1;33.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_points">
+     <dia:point val="28.5,-1.1"/>
+     <dia:point val="28.5,0.4"/>
+     <dia:point val="33.5,0.4"/>
+     <dia:point val="33.5,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_orient">
+     <dia:enum val="1"/>
+     <dia:enum val="0"/>
+     <dia:enum val="1"/>
+   </dia:attribute>
+   <dia:attribute name="autorouting">
+      <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="name">
+     <dia:string/>
+   </dia:attribute>
+   <dia:attribute name="stereotype">
+      <dia:string/>
+   </dia:attribute>
+   <dia:connections>
+     <dia:connection handle="0" to="O2" connection="6"/>
+     <dia:connection handle="1" to="O1" connection="1"/>
+    </dia:connections>
+ </dia:object>
+  <dia:object type="UML - Generalization" version="0" id="O19">
+   <dia:attribute name="obj_pos">
+     <dia:point val="-38,-1.1"/>
+   </dia:attribute>
+   <dia:attribute name="obj_bb">
+     <dia:rectangle val="-38,-1.1;-33,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_points">
+     <dia:point val="-38,-1.1"/>
+     <dia:point val="-38,0.4"/>
+     <dia:point val="-33,0.4"/>
+     <dia:point val="-33,1.900"/>
+   </dia:attribute>
+   <dia:attribute name="orth_orient">
+     <dia:enum val="1"/>
+     <dia:enum val="0"/>
+     <dia:enum val="1"/>
+   </dia:attribute>
+   <dia:attribute name="autorouting">
+      <dia:boolean val="true"/>
+   </dia:attribute>
+   <dia:attribute name="name">
+     <dia:string/>
+   </dia:attribute>
+   <dia:attribute name="stereotype">
+      <dia:string/>
+   </dia:attribute>
+   <dia:connections>
+     <dia:connection handle="0" to="O18" connection="6"/>
+     <dia:connection handle="1" to="O17" connection="1"/>
+    </dia:connections>
+ </dia:object>
+
+
+ </dia:layer>
+</dia:diagram>

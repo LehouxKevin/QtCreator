@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestAlveolesLibres</class>
+ <widget class="QWidget" name="TestAlveolesLibres">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>533</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TestAlveolesLibres</string>
+  </property>
+  <widget class="QLabel" name="labelNumero">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>161</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Numéro d'alévoles libres</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelRangeeColonne">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>30</y>
+     <width>191</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rangées &amp; Colonnes occuppées</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonReserver">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>230</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Réserver &gt;&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonLiberer">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>280</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;&lt; Libérer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonQuitter">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>390</y>
+     <width>291</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidgetNumero">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>171</width>
+     <height>311</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidgetRangeeColonne">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>60</y>
+     <width>171</width>
+     <height>311</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButtonQuitter</sender>
+   <signal>clicked()</signal>
+   <receiver>TestAlveolesLibres</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>270</x>
+     <y>422</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>87</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ServeurWidget</class>
+ <widget class="QWidget" name="ServeurWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>321</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ServeurWidget</string>
+  </property>
+  <widget class="QPushButton" name="pushButtonLancement">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>361</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lancement serveur</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelClients">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>54</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Clients</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowserClients">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>361</width>
+     <height>161</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonQuitter">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>361</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>361</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="labelPort">
+      <property name="text">
+       <string>Numéro de port</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="spinBoxPort">
+      <property name="maximum">
+       <number>10000</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButtonQuitter</sender>
+   <signal>clicked()</signal>
+   <receiver>ServeurWidget</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>223</x>
+     <y>301</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>11</x>
+     <y>287</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

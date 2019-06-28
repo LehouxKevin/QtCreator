@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/right-pointing-arrow.png</file>
+        <file>images/playlist.png</file>
+        <file>images/paper.png</file>
+        <file>images/no-audio.png</file>
+        <file>images/music-sheet.png</file>
+        <file>images/music-record.png</file>
+        <file>images/music-folder.png</file>
+        <file>images/musical-note-on-a-sheet-of-paper.png</file>
+        <file>images/long-arrow-up.png</file>
+        <file>images/long-arrow-down.png</file>
+        <file>images/left-pointing-arrow.png</file>
+        <file>images/icons8-descending-sorting-100.png</file>
+        <file>images/file-with-music-note.png</file>
+        <file>images/double-up.png</file>
+        <file>images/double-down-defill.png</file>
+        <file>images/double-down.png</file>
+        <file>images/delete.png</file>
+        <file>images/arrow-up-button.png</file>
+        <file>images/arrow-down-button.png</file>
+        <file>images/sound-wave.png</file>
+        <file>images/save.png</file>
+        <file>images/opened-folder.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>381</width>
+    <height>364</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBarOption">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>381</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOuvrir_Fichier">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <addaction name="actionOuvrir_Fichier"/>
+    <addaction name="actionEnregistrer_Fichier"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <addaction name="menuOuvrir_Fichier"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOuvrir_Fichier">
+   <property name="text">
+    <string>Ouvrir Fichier</string>
+   </property>
+  </action>
+  <action name="actionEnregistrer_Fichier">
+   <property name="text">
+    <string>Enregistrer Fichier</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

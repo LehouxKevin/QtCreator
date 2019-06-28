@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/USERS/ELEVES/SNIR2017/klehoux/QtCreator/build-premiere_appli_mobile-Android_for_armeabi_v7a_GCC_4_9_Qt_5_11_1_for_Android_armv7-Debug/android-build/libs/QtAndroid.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="61597ce917e370b1a18343dafa3b5a68249e30ad">
+        <dex dex="/home/USERS/ELEVES/SNIR2017/klehoux/QtCreator/build-premiere_appli_mobile-Android_for_armeabi_v7a_GCC_4_9_Qt_5_11_1_for_Android_armv7-Debug/android-build/build/intermediates/pre-dexed/debug/QtAndroid_22bf3e024c624e2bb33f92764adce36324601524.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/USERS/ELEVES/SNIR2017/klehoux/QtCreator/build-premiere_appli_mobile-Android_for_armeabi_v7a_GCC_4_9_Qt_5_11_1_for_Android_armv7-Debug/android-build/libs/QtAndroidBearer.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="240d63fd32eeb8ff0c72f271e3bc9b18fe3963b0">
+        <dex dex="/home/USERS/ELEVES/SNIR2017/klehoux/QtCreator/build-premiere_appli_mobile-Android_for_armeabi_v7a_GCC_4_9_Qt_5_11_1_for_Android_armv7-Debug/android-build/build/intermediates/pre-dexed/debug/QtAndroidBearer_dfc92b50ac147636fccf77d4f05df54798eceb85.jar" />
+    </item>
+
+</items>

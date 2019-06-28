@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>603</width>
+    <height>541</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QComboBox" name="comboBoxListePort">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>201</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOuvrirPort">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>191</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ouvrir le port série</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelEtat">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>20</y>
+     <width>54</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>etat</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTexteRecu">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>100</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Texte reçu</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowserTexteRecu">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>130</y>
+     <width>161</width>
+     <height>371</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonQuitter">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>510</y>
+     <width>571</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTexteAenvoyer">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>100</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Texte a envoyer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonEnvoyer">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>470</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Envoyer</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBoxConfiguration">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>191</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Configuration</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>173</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutVitesse">
+       <item>
+        <widget class="QLabel" name="labelVitesse">
+         <property name="text">
+          <string>Vitesse :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxVitesseTransmission"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutNbBitsDeDonnees">
+       <item>
+        <widget class="QLabel" name="labelNbBitsDeDonnees">
+         <property name="text">
+          <string>Bits de données</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxNbBitsDonnees"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutParite">
+       <item>
+        <widget class="QLabel" name="labelParite">
+         <property name="text">
+          <string>Parité</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxParite"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutNbBitsStop">
+       <item>
+        <widget class="QLabel" name="labelNbBitsStop">
+         <property name="text">
+          <string>Bits de stop</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxNbBitsStop"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutControleDeFlux">
+       <item>
+        <widget class="QLabel" name="labelControleDeFlux">
+         <property name="text">
+          <string>Contrôle de flux</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxControleDeFlux"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QTextEdit" name="textEditTextAenvoyer">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>130</y>
+     <width>171</width>
+     <height>331</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButtonQuitter</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>332</x>
+     <y>515</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>593</x>
+     <y>518</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

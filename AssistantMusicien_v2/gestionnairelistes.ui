@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GestionnaireListes</class>
+ <widget class="QWidget" name="GestionnaireListes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1800</width>
+    <height>1030</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>1721</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(194, 211, 239);</string>
+   </property>
+   <property name="title">
+    <string>Concert</string>
+   </property>
+   <widget class="QPushButton" name="pushButtonNouveauConcert">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Nouveau set</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="ressources.qrc">
+      <normaloff>:/images/paper.png</normaloff>:/images/paper.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSauvegarderConcert">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>90</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Sauvegarder le set</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="ressources.qrc">
+      <normaloff>:/images/save.png</normaloff>:/images/save.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>771</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="labelNomSet">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Nom du set:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Preferred</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>60</width>
+         <height>10</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditNomSet">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>40</y>
+      <width>382</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayoutDureeTotal">
+     <item>
+      <widget class="QLabel" name="labelDureeTotal">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Durée Total  :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Preferred</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditDureeTotal">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>90</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayoutNbTitre">
+     <item>
+      <widget class="QLabel" name="labelNbTitres">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Nombre de titres :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditNbTitres">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>40</y>
+      <width>401</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="labelDateConcert">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Date concert :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateEdit" name="dateEditDateConcert">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="wrapping">
+        <bool>false</bool>
+       </property>
+       <property name="frame">
+        <bool>true</bool>
+       </property>
+       <property name="calendarPopup">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>140</y>
+      <width>381</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="labelGenreConcert">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Genre du concert :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditGenreSet">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="labelListeSet">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>70</y>
+      <width>211</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Listes de sets :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSupprimerSet">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>144</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Supprimer le set</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxListeSet">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>94</y>
+      <width>541</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>1721</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(194, 211, 239);</string>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="pageOrganisationConcert">
+    <widget class="QLabel" name="labelOrganisationDuConcert">
+     <property name="geometry">
+      <rect>
+       <x>990</x>
+       <y>10</y>
+       <width>361</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Organisation du concert :</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonRehausserMusique">
+     <property name="geometry">
+      <rect>
+       <x>1590</x>
+       <y>90</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Réhausser l'élément</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/long-arrow-up.png</normaloff>:/images/long-arrow-up.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>90</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonAbaisserMusique">
+     <property name="geometry">
+      <rect>
+       <x>1590</x>
+       <y>200</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Abaisser l'élément</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/long-arrow-down.png</normaloff>:/images/long-arrow-down.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>90</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonRetirerMusique">
+     <property name="geometry">
+      <rect>
+       <x>1590</x>
+       <y>310</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Retirer l'élément</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/delete.png</normaloff>:/images/delete.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>90</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonEnvoyerMusique">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>310</y>
+       <width>110</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Envoyer vers la playlist</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/circled-right.png</normaloff>:/images/circled-right.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonAjoutFichiers">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>640</y>
+       <width>110</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Ajout depuis les fichiers</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/opened-folder.png</normaloff>:/images/opened-folder.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonEnvoyerPlaylist">
+     <property name="geometry">
+      <rect>
+       <x>1590</x>
+       <y>470</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Envoyer la playlist vers le lecteur audio</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/send-playlist.png</normaloff>:/images/send-playlist.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidgetListeMusique">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>580</width>
+       <height>701</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidgetAffichageSet">
+     <property name="geometry">
+      <rect>
+       <x>990</x>
+       <y>50</y>
+       <width>580</width>
+       <height>701</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonModifierTitre">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>640</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Modifier le titre sélectionné</string>
+     </property>
+     <property name="text">
+      <string>Modifier Titre</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditRechercheParTitre">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>580</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Rechercher par titre</string>
+     </property>
+     <property name="placeholderText">
+      <string>Rechercher par titre...</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditRechercheParInterprete">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>520</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Rechercher par interprète</string>
+     </property>
+     <property name="placeholderText">
+      <string>Rechercher par interprète...</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelOrganisationDuConcert_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Liste musiques :</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonSupprimerTitre">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>700</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Modifier le titre sélectionné</string>
+     </property>
+     <property name="text">
+      <string>Supprimer Titre</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonEnvoyerPlaylistPartition">
+     <property name="geometry">
+      <rect>
+       <x>1590</x>
+       <y>590</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/envoyer_liste-partition.png</normaloff>:/images/envoyer_liste-partition.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="pageAjoutFichiers">
+    <widget class="QLabel" name="labelAjoutFichier">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>211</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Gestion de fichiers</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonAudio">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>220</y>
+       <width>110</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/voice.png</normaloff>:/images/voice.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonPartition">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>340</y>
+       <width>110</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/musical.png</normaloff>:/images/musical.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonEnregistrement">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>460</y>
+       <width>110</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/microphone.png</normaloff>:/images/microphone.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditCheminFichierAudio">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>280</y>
+       <width>1421</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditCheminFichierPartition">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>390</y>
+       <width>1421</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditCheminFichierEnregistrement">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>510</y>
+       <width>1411</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelCheminFichierAudio">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>240</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Chemin du fichier audio :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelCheminFichierPartition">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>350</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Chemin de la partition :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelCheminFichierEnregistrement">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>460</y>
+       <width>341</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Chemin du fichier enregistrement :</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonObtenirCheminFichierAudio">
+     <property name="geometry">
+      <rect>
+       <x>1600</x>
+       <y>220</y>
+       <width>110</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Choisir un fichier</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/open-path.png</normaloff>:/images/open-path.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonObtenirCheminFichierPartition">
+     <property name="geometry">
+      <rect>
+       <x>1600</x>
+       <y>340</y>
+       <width>110</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Choisir un fichier</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/open-path.png</normaloff>:/images/open-path.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonObtenirCheminEnregistrement">
+     <property name="geometry">
+      <rect>
+       <x>1600</x>
+       <y>460</y>
+       <width>110</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Choisir un fichier</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/open-path.png</normaloff>:/images/open-path.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>891</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <widget class="QLabel" name="labelTempo">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Tempo :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Preferred</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>28</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditTempo">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelDuree">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Durée :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditDuree">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelTonalite">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Tonalité :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditTonalite">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>891</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayoutInterprete">
+      <item>
+       <widget class="QLabel" name="labelInterprete">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Interprète :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Preferred</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>0</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditInterprete">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>891</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayoutNom">
+      <item>
+       <widget class="QLabel" name="labelNom">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Nom :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Preferred</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>50</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditNom">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="pushButtonAjouter">
+     <property name="geometry">
+      <rect>
+       <x>1480</x>
+       <y>700</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Ajouter l'élément aux fichiers de l'application</string>
+     </property>
+     <property name="text">
+      <string>Ajouter</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonNote">
+     <property name="geometry">
+      <rect>
+       <x>1120</x>
+       <y>70</y>
+       <width>110</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Ecrire une note</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/task.png</normaloff>:/images/task.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonRythme">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>580</y>
+       <width>110</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/metronome2.png</normaloff>:/images/metronome2.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelCheminFichierRythme">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>600</y>
+       <width>301</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Chemin du fichier du rythme  :</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditCheminFichierRythme">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>644</y>
+       <width>1411</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonObtenirCheminFichierRythme">
+     <property name="geometry">
+      <rect>
+       <x>1600</x>
+       <y>580</y>
+       <width>110</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/images/open-path.png</normaloff>:/images/open-path.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>70</width>
+       <height>70</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEditNote">
+     <property name="geometry">
+      <rect>
+       <x>1250</x>
+       <y>60</y>
+       <width>411</width>
+       <height>130</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonAnnuler">
+     <property name="geometry">
+      <rect>
+       <x>1360</x>
+       <y>700</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Annuler</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonValiderLesModifications">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>710</y>
+       <width>291</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Valider les modifications</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1770</width>
+     <height>1010</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>stackedWidget</zorder>
+ </widget>
+ <resources>
+  <include location="ressources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
